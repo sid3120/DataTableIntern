@@ -1,0 +1,182 @@
+body{
+    background: #E3ECF5;
+
+}
+.table thead th:last-child{
+    box-shadow: 0 -10px 10px rgba(0,0,0,0.1), -5px 0px 5px rgba(0,0,0,0.1), 5px 0px 5px rgba(0,0,0,0.1);
+}
+.table tbody td:last-child{
+	box-shadow: -5px 0px 8px rgba(0,0,0,0.15), 5px 0px 8px rgba(0,0,0,0.15);
+	
+}
+.table thead th:first-child{
+    border-right: 1px solid Transparent!important;}
+    .table tbody td:first-child{
+        border-right: 1px solid Transparent!important;}
+
+        .table thead th:nth-child(2){
+            box-shadow: 10px -10px 10px rgba(0,0,0,0.1);
+        }
+        .table tbody td:nth-child(3){
+            box-shadow: 10px 0px 10px rgba(0,0,0,0.1) inset;
+            
+        }
+
+
+
+       tr:nth-child(3){
+            background-color: red;
+            
+        }
+.dropdown-menu{
+    border-color: white;
+}
+#try:before {
+    position: absolute;
+    top: -8px;
+    right: 120px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    
+    content: '';
+  }
+  
+  #try:after {
+    position: absolute;
+    top: -8px;
+    right: 121px;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #ffffff;
+    border-left: 6px solid transparent;
+    content: '';
+  }
+  #options:before {
+    position: absolute;
+    top: -7px;
+    right: 50px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    
+    content: '';
+  }
+  
+  #options:after {
+    position: absolute;
+    top: -7px;
+    right: 51px;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #ffffff;
+    border-left: 6px solid transparent;
+    content: '';
+  }
+.container{
+    position: absolute;
+
+left: 200px;
+top: 200px;
+
+
+background: #FFFFFF;
+box-shadow: 0px 3px 8px rgba(212, 220, 230, 0.75);
+border-radius: 15px;
+}
+.btn-group{
+    width: 220px;
+}
+.blue-color{
+    background: #E6F0FF;
+    
+
+}
+.bootstrap-table .fixed-table-pagination>.pagination-detail .page-list .btn-group {
+    position: relative;
+    display: inline-block;
+    vertical-align: left;
+    width: 70px
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.table-striped>thead,
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+    background-color: #E8EEFA; /* Choose your own color here */
+}
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #FFFFFF;
+    ; /* Choose your own color here */
+}
+.pagination-info{
+    height:0px;
+    width:0px;
+    display:none;
+}
+.pagination li{
+    padding:5px;
+}
+input[type=radio]{
+    border-radius: 2px;
+    background: gray;
+}
+.page-list{
+    color: transparent;
+}
+.page-size{
+    color:#789ecc;
+}
+
+.page-link{
+    border-radius: 10%;
+    color:black;
+    border-color: gray;
+}
+li.page-item.active a.page-link{
+    background-color: white;
+color:blue;
+}
+li.page-item.page-next a.page-link{
+    background-color: white;
+color:gray;
+}
+li.page-item.page-pre a.page-link{
+    background-color: white;
+color:gray;
+}
+hr{padding:0px; margin:2px;}
+#toolbar button,
+.page-list div button,
+.try
+{box-sizing: border-box;
+color:#789ecc;
+background: #F5FAFF;
+border: 1px solid #91B1D7;
+border-radius: 5px;
+}
+.columns button{
+    background: #F5FAFF;
+border: 1px solid #91B1D7;
+border-radius: 5px; 
+color:black;
+}
+.form-control,.form-control:hover,.form-control:active{
+    background:#F5FAFF;
+}
+.page-list span button:hover,
+.page-list span button:active{
+    background: #F5FAFF;
+border: 1px solid #789ecc;
+border-radius: 5px;
+}
+.page-list span button span, button.dropdown-toggle::after{
+    color: black;
+}
+.fixed-table-toolbar{
+    margin-bottom: 20px;
+}
